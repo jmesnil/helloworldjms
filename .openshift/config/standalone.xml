@@ -410,6 +410,7 @@
                  <connectors>
                      <http-connector name="http-connector" socket-binding="http">
                          <param key="http-upgrade-endpoint" value="http-acceptor"/>
+                         <param key="host" value="helloworldjms-jmesnil.rhcloud.com"/>
                      </http-connector>
                      <http-connector name="http-connector-throughput" socket-binding="http">
                          <param key="http-upgrade-endpoint" value="http-acceptor-throughput"/>
